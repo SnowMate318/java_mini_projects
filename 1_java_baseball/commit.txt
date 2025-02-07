@@ -25,10 +25,10 @@
 # - ngClick: Angular의 ngClick 디렉티브 수정
 # - ngView: Angular의 뷰 관련 코드 수정
 #
-docs(1_java_baseball docs/README.md): 프로그램 설계 및 시나리오
+test(1_java_baseball java test): 클래스 생성 및 테스트
 
 # Body (커밋 메시지 본문)
-요구사항에 맞게 클래스를 설계하고, 동작 시나리오를 작성하였습니다.
+필요한 클래스와 생성자를 생성하고, 테스트 단계에서 실행할 메소드를 저장하였습니다.
 
 #
 # 이 커밋의 목적을 명확하게 설명합니다.
