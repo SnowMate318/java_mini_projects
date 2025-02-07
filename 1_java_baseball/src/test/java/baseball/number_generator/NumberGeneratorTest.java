@@ -1,4 +1,4 @@
-package number_generator;
+package baseball.number_generator;
 
 import org.junit.jupiter.api.Test;
 

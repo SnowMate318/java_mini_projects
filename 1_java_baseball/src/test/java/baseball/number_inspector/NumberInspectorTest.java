@@ -1,4 +1,4 @@
-package number_inspector;
+package baseball.number_inspector;
 
 import org.junit.jupiter.api.Test;
 
