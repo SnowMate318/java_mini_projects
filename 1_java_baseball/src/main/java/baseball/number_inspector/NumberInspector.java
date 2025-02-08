@@ -26,7 +26,7 @@ public class NumberInspector {
             throw new IllegalArgumentException("입력한 값과 검사할 값의 길이는 동일해야 합니다.");
         }
 
-        if(src>MAX_SCOPE || dst>MAX_SCOPE){
+        if(src>=MAX_SCOPE || dst>=MAX_SCOPE){
             throw new IllegalArgumentException("1억 이상의 값은 등록할 수 없습니다.");
         }
 
