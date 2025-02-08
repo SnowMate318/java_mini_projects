@@ -25,12 +25,11 @@
 # - ngClick: Angular의 ngClick 디렉티브 수정
 # - ngView: Angular의 뷰 관련 코드 수정
 #
-feat, test(1_java_baseball InputInspector, InputInspectorTest): 입력받을 숫자의 자릿수 입력받는 기능
+refactor(1_java_baseball NumberInspector, InputInspector): 게임기 클래스를 위한
 
 # Body (커밋 메시지 본문)
-기존 3자리 숫자만 입력받도록 하는 기능에서
-사용자가 생성자에서 입력한 길이만큼의 숫자만 입력받을 수 있도록 하였습니다.
-또한, 입력받을 자릿수를 1~8까지로 제한하였습니다.
+게임기 클래스가 특정 NumberInspector, InputInspector에 종속되지 않는 구조를 만들려고 합니다.
+게임기 생성자에서 NumberInspector, InputInspector를 설정할 수 있는 구조로 만들었습니다.
 
 #
 # 이 커밋의 목적을 명확하게 설명합니다.
