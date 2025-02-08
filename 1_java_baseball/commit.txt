@@ -25,11 +25,11 @@
 # - ngClick: Angular의 ngClick 디렉티브 수정
 # - ngView: Angular의 뷰 관련 코드 수정
 #
-refactor(1_java_baseball customIO): 메소드 이름
+feat, test(1_java_baseball NumberInspector, NumberInspectorTest): 숫자 검사기 클래스 구현 및 테스트
 
 # Body (커밋 메시지 본문)
-메소드 이름과 의미가 맞지않아 customIO 라는 이름의 패키지와 클래스를 userInput 으로 변경하였습니다.
-사용자가 입력한 값이 맞는지 확인하는 역할을 하도록 담당합니다.
+2개의 숫자와 비교하여 볼이 몇개인지, 스트라이크가 몇개인지 판단하는 검사기 클래스를 구현하였습니다.
+낫싱, 볼, 스트라이크 갯수를 적절하게 검사했는지 확인하였습니다.
 
 #
 # 이 커밋의 목적을 명확하게 설명합니다.
