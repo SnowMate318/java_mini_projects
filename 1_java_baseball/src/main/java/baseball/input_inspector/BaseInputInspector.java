@@ -5,15 +5,25 @@ public class BaseInputInspector implements InputInspector {
     private static final int MIN_LENGTH = 1;
     private static final int MAX_LENGTH = 8;
 
-    private final int length;
+    private int length;
+
+    public BaseInputInspector() {
+        this.length = 1;
+    }
 
     public BaseInputInspector(int length) {
-
         if(notInScope(length)){
             throw new IllegalArgumentException("입력 검사기의 검사 가능 길이는 1~8입니다.");
         }
         this.length = length;
+    }
 
+    @Override
+    public void setLength(int length){
+        if(notInScope(length)){
+            throw new IllegalArgumentException("입력 검사기의 검사 가능 길이는 1~8입니다.");
+        }
+        this.length = length;
     }
 
     @Override
